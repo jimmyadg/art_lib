@@ -37,3 +37,6 @@
 
 ### Retraining result - 79.6% accuracy
  <img src="https://github.com/jimmyadg/art_lib/blob/master/img/training_result.png" width="80%"/>
+
+### Testing script to identify a pop art image
+<img src="https://github.com/jimmyadg/art_lib/blob/master/img/run_test.png" width="80%"/>
