@@ -1,6 +1,6 @@
 # ARTlib
 
-## An online neural net art analyzer
+<h3>An online neural net art analyzer</h3>
 
 ### Initial Concept
 #### UI Wireframe
