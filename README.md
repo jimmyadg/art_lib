@@ -11,7 +11,7 @@
 #### In terminal
 
 <code>$ sudo service docker start</code><br>
-<code>$ sudo docker run -it -v tf_files:/tf_files gcr.io/tensorflow/tensorflow:latest-devel</code><br><br>
+<code>$ sudo docker run -it -v $HOME/tf_files:/tf_files gcr.io/tensorflow/tensorflow:latest-devel</code><br><br>
 
 #### In docker
 
