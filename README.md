@@ -3,6 +3,7 @@
 <h3>An online neural net art analyzer</h3>
 
 ## Initial Concept
+The concept behind this project is to create an online art archive that analyze an user's input art image with Google Tensorflow and output a result showing detailed analyzation on the image, related image search, and exhibition nearby that the user may find interested. 
 ### UI Wireframe
 <img src="https://github.com/jimmyadg/art_lib/blob/master/img/wireframe.jpg" width="100%"/>
 
