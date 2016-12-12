@@ -4,7 +4,9 @@
 
 ### Initial Concept
 #### UI Wireframe
-<img src="https://github.com/jimmyadg/art_lib/blob/master/img/wireframe.jpg" width="100%">
+<img src="https://github.com/jimmyadg/art_lib/blob/master/img/wireframe.jpg" width="100%"/>
+
+### Dependencies
 
 
 ### Shell script for retraining Tensorflow
@@ -24,7 +26,7 @@
 
 ### Process
 #### Retraining Tensorflow AI with abstraction, pop art, and impressionism art images
-<img src="https://github.com/jimmyadg/art_lib/blob/master/img/training_process.png" width="80%">
+<img src="https://github.com/jimmyadg/art_lib/blob/master/img/training_process.png" width="80%"/>
 
 #### Retraining result - 79.6% accuracy
- <img src="https://github.com/jimmyadg/art_lib/blob/master/img/training_result.png" width="80%">
+ <img src="https://github.com/jimmyadg/art_lib/blob/master/img/training_result.png" width="80%"/>
