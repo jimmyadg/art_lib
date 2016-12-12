@@ -7,8 +7,8 @@
 <img src="https://github.com/jimmyadg/art_lib/blob/master/img/wireframe.jpg" width="100%"/>
 
 ## Dependencies
-### Docker - ![alt tag](https://docs.docker.com/)
-### Tensorflow
+### Docker - [https://docs.docker.com/](https://docs.docker.com/)
+### Tensorflow - [https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/?utm_campaign=chrome_series_machinelearning_063016&utm_source=gdev&utm_medium=yt-desc#2](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/?utm_campaign=chrome_series_machinelearning_063016&utm_source=gdev&utm_medium=yt-desc#2)
 
 ## Shell script for retraining Tensorflow
 ### In terminal
