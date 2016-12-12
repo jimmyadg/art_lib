@@ -10,6 +10,8 @@
 ### Docker - [https://docs.docker.com/](https://docs.docker.com/)
 ### Tensorflow - [https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/?utm_campaign=chrome_series_machinelearning_063016&utm_source=gdev&utm_medium=yt-desc#2](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/?utm_campaign=chrome_series_machinelearning_063016&utm_source=gdev&utm_medium=yt-desc#2)
 
+### Full tf files - [https://drive.google.com/open?id=0B6mChz6ucdBHM19Ma25yVTlOOGc](https://drive.google.com/open?id=0B6mChz6ucdBHM19Ma25yVTlOOGc)
+
 ## Shell script for retraining Tensorflow
 ### In terminal
 
