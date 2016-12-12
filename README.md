@@ -3,11 +3,12 @@
 <h3>An online neural net art analyzer</h3>
 
 ## Initial Concept
-#### UI Wireframe
+### UI Wireframe
 <img src="https://github.com/jimmyadg/art_lib/blob/master/img/wireframe.jpg" width="100%"/>
 
 ## Dependencies
-
+### Docker
+### Tensorflow
 
 ## Shell script for retraining Tensorflow
 ### In terminal
