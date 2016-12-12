@@ -3,9 +3,11 @@
 ## An online neural net art analyzer
 
 ### Initial Concept
+#### UI Wireframe 
+
 <img src="https://github.com/jimmyadg/art_lib/blob/master/img/wireframe.jpg" width="80%">
 
-### shell script  
+### Shell script for retraining Tensorflow
 #### In terminal
 
 <code>$ sudo service docker start</code><br>
