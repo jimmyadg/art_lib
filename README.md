@@ -7,7 +7,7 @@
 <img src="https://github.com/jimmyadg/art_lib/blob/master/img/wireframe.jpg" width="100%"/>
 
 ## Dependencies
-### Docker
+### Docker - ![alt tag](https://docs.docker.com/)
 ### Tensorflow
 
 ## Shell script for retraining Tensorflow
