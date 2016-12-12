@@ -3,9 +3,9 @@
 ## An online neural net art analyzer
 
 ### Initial Concept
-#### UI Wireframe 
+#### UI Wireframe
 
-<img src="https://github.com/jimmyadg/art_lib/blob/master/img/wireframe.jpg" width="80%">
+<img src="https://github.com/jimmyadg/art_lib/blob/master/img/wireframe.jpg" width="100%">
 
 ### Shell script for retraining Tensorflow
 #### In terminal
