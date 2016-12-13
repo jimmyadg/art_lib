@@ -36,7 +36,7 @@ The concept behind this project is to create an online art archive that analyze 
 ## Analyze image with the trained AI
 
 <code>sudo docker run -it -v $HOME/tf_files:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel</code><br><br>
-<code># python /tf_files/label_image.py /tf_files/path/to/image file</code>
+<code># python /tf_files/label_image.py /path/to/image file</code>
 
 
 ## Process
