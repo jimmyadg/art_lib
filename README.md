@@ -33,6 +33,11 @@ The concept behind this project is to create an online art archive that analyze 
 --output_labels=/tf_files/retrained_labels.txt \
 --image_dir /tf_files/file_name</code><br>
 
+## Analyze image with the trained AI
+
+<code>sudo docker run -it -v $HOME/tf_files:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel</code><br><br>
+<code># python /tf_files/label_image.py /tf_files/path/to/image file</code>
+
 
 ## Process
 ### Retraining Tensorflow AI with abstraction, pop art, and impressionism art images
