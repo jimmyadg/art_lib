@@ -3,7 +3,7 @@
 <h3>An online neural net art analyzer</h3>
 
 ## Initial Concept
-The concept behind this project is to create an online art archive that analyze an user's input art image with Google Tensorflow and output a result showing detailed analyzation on the image, related image search, and exhibition nearby that the user may find interested. 
+The concept behind this project is to create an online art archive that analyze an user's input art image with Google Tensorflow and output a result showing detailed analyzation on the image, related image search, and exhibition nearby that the user may find interested.
 ### UI Wireframe
 <img src="https://github.com/jimmyadg/art_lib/blob/master/img/wireframe.jpg" width="100%"/>
 
@@ -11,7 +11,7 @@ The concept behind this project is to create an online art archive that analyze 
 ### Docker - [https://docs.docker.com/](https://docs.docker.com/)
 ### Tensorflow - [https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/?utm_campaign=chrome_series_machinelearning_063016&utm_source=gdev&utm_medium=yt-desc#2](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/?utm_campaign=chrome_series_machinelearning_063016&utm_source=gdev&utm_medium=yt-desc#2)
 
-### Full tf files - [https://drive.google.com/open?id=0B6mChz6ucdBHM19Ma25yVTlOOGc](https://drive.google.com/open?id=0B6mChz6ucdBHM19Ma25yVTlOOGc)
+### Full tf_files for this project- [https://drive.google.com/open?id=0B6mChz6ucdBHM19Ma25yVTlOOGc](https://drive.google.com/open?id=0B6mChz6ucdBHM19Ma25yVTlOOGc)
 
 ## Shell script for retraining Tensorflow
 ### In terminal
