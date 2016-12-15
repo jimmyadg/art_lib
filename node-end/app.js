@@ -6,7 +6,7 @@ var fs = require('fs');
 var reloadJSON = require('self-reload-json');
 var file = new reloadJSON('../tf_files/data.json');
 var fileChange = file.on('updated', function() {
-  });
+});
 //var file = fs.readFileSync('../tf_files/data.json');
 var data;
 var port = 9000;
@@ -29,14 +29,19 @@ io.on('connection',function(socket){
   console.log('connection %s sockets connected',connections.length);
 
 
-//disconnect
+  //disconnect
   socket.on('disconnect',function(){
     connections.splice(connections.indexOf(socket),1);
     console.log('Disconnected: %s sockets connected',connections.length);
   });
 
   //send json data
-    io.emit('display info',file);
-    console.log(file);
 
+
+
+  (function(){
+    io.emit('display info',file);
+    //console.log(file);
+    setTimeout(arguments.callee, 200);
+  })();
 });

@@ -17,16 +17,19 @@
   <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
   <script type="text/javascript">
   var socket = io.connect();
-
   socket.on('display info', function(data){
     var html = '';
-    console.log(Object.keys(data).length);
+    //console.log(data);
     for(var i =0; i<3;i++){
       html += '<li> '+Math.round((data[i].score)*100)/1+ '% '+ data[i].catergory+'</li> <br/>';
     }
 
     $('#info').html(html);
+
   });
+
+
+
   </script>
 </body>
 </html>
