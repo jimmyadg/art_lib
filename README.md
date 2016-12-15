@@ -38,6 +38,15 @@ The concept behind this project is to create an online art archive that analyze 
 <code>sudo docker run -it -v $HOME/tf_files:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel</code><br><br>
 <code># python /tf_files/label_image.py /path/to/image file</code>
 
+## Todo List
+- [x] Setup Tensorflow
+- [x] Retrain Tensorflow
+- [x] Output result to JSON
+- [x] Node server
+- [ ] Client site display
+- [ ] Implement Tensorflow
+- [ ] Client site search implement
+
 
 ## Process
 ### Retraining Tensorflow AI with abstraction, pop art, and impressionism art images
@@ -48,3 +57,5 @@ The concept behind this project is to create an online art archive that analyze 
 
 ### Testing script to identify a pop art image
 <img src="https://github.com/jimmyadg/art_lib/blob/master/img/run_test.png" width="80%"/>
+
+### Saving outputs to a JSON file
