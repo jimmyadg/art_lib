@@ -10,7 +10,14 @@ body{
 
 }
 
-.container p {
+img{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 30%;
+}
+
+p {
   position: absolute;
   top: 40%;
   left: 70%;

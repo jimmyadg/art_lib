@@ -3,9 +3,13 @@ var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io').listen(server);
 var fs = require('fs');
+var sys = require('sys');
+var exec = require('child_process').exec;
 var reloadJSON = require('self-reload-json');
 var file = new reloadJSON('../tf_files/data.json');
 var fileChange = file.on('updated', function() {
+  exec('cp $HOME/tf_files/test_img/test.jpg $HOME/node-end/public', puts);
+
 });
 //var file = fs.readFileSync('../tf_files/data.json');
 var data;
@@ -16,6 +20,9 @@ connections = [];
 //console.log(jsonFile);
 
 server.listen(process.env.PORT || port,err);
+
+function puts(error, stdout, stderr) { sys.puts(stdout) }
+
 
 function err() {
   console.log("server running on 54.161.90.87:" + port)
@@ -36,8 +43,6 @@ io.on('connection',function(socket){
   });
 
   //send json data
-
-
 
   (function(){
     io.emit('display info',file);

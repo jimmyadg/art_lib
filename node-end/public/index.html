@@ -7,9 +7,11 @@
 </head>
 <body>
   <div class="container">
-    <div>
+    <div >
+      <img id ="holder"/ >
       <p id ="info"></p>
     </div>
+
 
   </div>
 
@@ -17,16 +19,37 @@
   <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
   <script type="text/javascript">
   var socket = io.connect();
+
+  //function for rounding number
+  function round(value, precision) {
+    var multiplier = Math.pow(10, precision || 0);
+    return Math.round(value * multiplier) / multiplier;
+  }
   socket.on('display info', function(data){
     var html = '';
     //console.log(data);
     for(var i =0; i<3;i++){
-      html += '<li> '+Math.round((data[i].score)*100)/1+ '% '+ data[i].catergory+'</li> <br/>';
+      html += '<li> '+round((data[i].score)*100,1)+ '% '+ data[i].catergory+'</li> <br/>';
     }
-
     $('#info').html(html);
 
   });
+
+  // setInterval(function () {
+  //   var img = '';
+  //   $('#holder').html('');
+  //    img += '<img src="test.jpg"/>'
+  //    $('#holder').html(img);
+  // }, 100);
+
+  $(function() {
+   var intervalMS = 2000; // 5 seconds
+   setInterval(function() {
+      $("#holder").prop("src", "test.jpg?" + +new Date());
+   }, intervalMS);
+});
+
+
 
 
 
