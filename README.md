@@ -59,3 +59,12 @@ The concept behind this project is to create an online art archive that analyze 
 <img src="https://github.com/jimmyadg/art_lib/blob/master/img/run_test.png" width="80%"/>
 
 ### Saving outputs to a JSON file
+
+## Demo Pictures
+<img src="https://github.com/jimmyadg/art_lib/blob/master/img/impr.img" width="80%"/>
+
+<img src="https://github.com/jimmyadg/art_lib/blob/master/img/abstr.img" width="80%"/>
+
+<img src="https://github.com/jimmyadg/art_lib/blob/master/img/pop_art.img" width="80%"/>
+
+<img src="https://github.com/jimmyadg/art_lib/blob/master/img/random.img" width="80%"/>
