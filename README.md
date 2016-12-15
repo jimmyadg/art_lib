@@ -43,8 +43,8 @@ The concept behind this project is to create an online art archive that analyze 
 - [x] Retrain Tensorflow
 - [x] Output result to JSON
 - [x] Node server
-- [ ] Client site display
-- [ ] Implement Tensorflow
+- [x] Client site display
+- [x] Implement Tensorflow
 - [ ] Client site search implement
 
 
